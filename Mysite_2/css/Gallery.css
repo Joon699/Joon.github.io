@@ -1,0 +1,56 @@
+.gallery ul,
+.gallery li{
+    margin: 12.5;
+    padding: 0;
+    position: absolute;
+    top:12%;
+    list-style-type: none;
+    position: absolute;
+    background-color: 9d9c9c;
+}
+.gallery li{
+    display: inline-block;
+    position: relative;
+
+}
+.gallery img{
+    max-width: 100%;
+    display: block;
+}
+.descr{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    top:100%;
+}
+.gallery li:hover .descr{
+    display: block;
+    position: absolute;
+    top:0;
+}
+.buttom1{
+    position: absolute;
+    left:97.4%;
+    top:43%;
+    margin: 0;
+    display: inline-block;
+}
+.buttom2{
+    position: absolute;
+    left:0%;
+     top:43%;
+    margin: 0;
+    display: inline-block;
+}
+.copymark{
+    position: fixed;
+    left:90%;
+    top:85%;
+}
